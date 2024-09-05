@@ -1,0 +1,501 @@
+name,sku,Category,supplier,purchase_price,selling_price,quantity_in_stock,expiry_date
+Member,1,1,Williams Group,36.51,41.66,380,11/11/2025
+Make,2,2,"Rivas, Lewis and Griffin",26.52,33.65,16,11/4/2025
+Whom,3,0,Hines Group,51.54,67.11,14,1/7/2024
+Theory,4,2,"Garcia, Jacobs and Martin",47.78,64.98,280,1/1/2025
+Easy,5,3,Perkins and Sons,51.88,69.3,415,5/30/2025
+Alone,6,0,Garcia LLC,154.17,179.43,217,1/11/2024
+Democratic,7,5,Allen-Shelton,62.8,74.49,391,5/17/2024
+Certainly,8,5,Ochoa-Cabrera,29.42,36.83,184,4/11/2025
+Matter,9,5,Little-Anthony,124.71,177.44,374,6/23/2025
+Strategy,10,3,Olsen PLC,111.88,166.62,194,9/5/2024
+Rich,11,0,Lewis-Burton,114.89,164.5,317,10/10/2024
+Name,12,5,Curtis Inc,119.7,165.4,24,2/15/2024
+Coach,13,0,Vega-Griffin,53.3,64.8,41,5/23/2025
+Moment,14,1,Johnson-Fitzpatrick,174.63,218.65,233,4/13/2024
+Ball,15,0,"Rodriguez, Palmer and Wang",168.48,196.29,182,7/22/2025
+Five,16,1,Wallace-Thompson,137.33,189.62,350,8/17/2025
+Can,17,0,Wolf PLC,23.57,31.91,274,3/7/2025
+Sing,18,0,Thomas Group,56.51,72.61,139,10/25/2025
+Husband,19,0,Thompson-Tucker,140.75,167.19,167,10/29/2025
+Tough,20,0,Perez LLC,53.52,59.56,162,12/18/2024
+Next,21,3,Mcgee-Carroll,60.87,72.09,483,4/10/2024
+Sing,22,2,"Hall, Clarke and Medina",176.51,216.38,336,1/10/2025
+Two,23,3,"Alexander, Jones and Morgan",85.17,124.84,235,2/12/2025
+Blood,24,1,"Keller, Cox and Price",60.33,72.31,288,3/13/2024
+Thank,25,2,Peterson-Mckenzie,59.92,79.92,460,12/10/2025
+Image,26,2,Flynn-Rowe,85.89,102.01,71,1/17/2024
+Enough,27,2,Lee PLC,103.77,145.52,441,12/28/2025
+Factor,28,0,Fisher-Holder,39.04,45.44,349,11/1/2025
+Score,29,3,Dickerson-Reese,123.32,154.63,306,9/16/2024
+Gun,30,3,Torres-Maddox,110.53,164.52,441,11/18/2025
+Benefit,31,0,"Smith, Todd and Kemp",139.25,159.56,454,10/16/2025
+Pattern,32,2,"Roberts, Myers and Johnston",152.67,214.87,175,8/18/2025
+Focus,33,0,Perkins-Baker,65.77,76.51,2,3/8/2025
+Reason,34,0,Valdez LLC,176.41,212.64,257,3/10/2025
+Ball,35,1,Miller-Hoover,106.46,121.64,321,2/26/2025
+Reflect,36,5,Houston PLC,169.92,221.42,102,12/9/2024
+When,37,1,White-Allen,81.04,94.38,489,1/2/2024
+Develop,38,2,"Mcbride, Smith and Parsons",184.51,247.17,251,6/16/2024
+By,39,0,"White, Hernandez and Bruce",31.25,38.91,426,11/29/2024
+Attention,40,5,Hansen-Torres,55.5,66.4,291,11/28/2025
+Rise,41,0,Anderson Group,26.27,34,36,12/24/2025
+Spend,42,2,"Lewis, Erickson and Cervantes",155.51,179.05,244,5/17/2025
+Win,43,2,"Levy, Chambers and Walker",41.37,54.24,311,3/23/2024
+Chair,44,3,Stone-Jones,193.23,284.35,387,11/6/2024
+Write,45,0,Valdez-Fields,141.07,195.41,205,11/21/2024
+Many,46,0,Farmer-Wheeler,133.48,170.22,265,10/24/2025
+Draw,47,3,"Brown, Park and Curtis",32.99,39.25,174,3/28/2025
+Fall,48,0,"Good, Mueller and Hall",121.78,145.17,113,11/23/2024
+Skin,49,0,Wheeler LLC,23.49,31.77,118,7/5/2024
+Street,50,0,"Roberts, Davis and Hanna",182.03,262.82,37,11/3/2025
+Nature,51,2,Stevenson-Powers,55.22,75.52,110,10/10/2025
+Laugh,52,2,"Swanson, Russell and Fields",35.14,51.8,293,7/20/2024
+Necessary,53,2,Turner-Thomas,99.81,141.12,414,12/22/2025
+Necessary,54,3,Harper-Cherry,46.18,52.59,221,5/18/2024
+Piece,55,5,"Walker, Valdez and Garcia",90.48,116.43,374,10/19/2025
+Assume,56,0,Gonzalez-Baker,137.94,206.04,51,3/4/2024
+Specific,57,0,Torres-Gonzalez,86.5,106.89,442,12/21/2024
+Bar,58,0,Rivas LLC,57.24,67.32,230,9/11/2025
+Live,59,1,"Page, Howard and Andersen",90.16,109.22,128,4/13/2024
+Push,60,0,Owens-Warren,94.19,136.06,282,6/4/2024
+Parent,61,0,Mills PLC,19.61,29.41,429,4/20/2024
+Explain,62,0,Gentry Ltd,194.11,285.45,435,4/4/2024
+Business,63,1,"Sanchez, Gomez and Barber",41.6,53.84,110,11/30/2024
+Mrs,64,3,"Crawford, Jones and Harper",181.46,211.56,2,1/25/2025
+Skin,65,3,Martin-Beck,60.39,85.37,233,12/14/2025
+His,66,5,Romero-Chambers,90.37,134.01,402,4/24/2024
+Feeling,67,2,Choi-Pena,135.76,175.76,98,2/17/2024
+Boy,68,5,Middleton-Thompson,51.36,57.7,377,5/26/2025
+Take,69,2,Flores-Walters,21.58,26.45,26,7/28/2025
+Director,70,2,Lopez-Phillips,100.59,147.64,272,12/4/2025
+Decade,71,1,Mooney-Copeland,20.81,27.12,436,3/7/2024
+Them,72,1,"Hernandez, Long and Phillips",23.02,25.95,442,10/27/2024
+Trip,73,1,Wilson and Sons,86.72,128.05,292,5/11/2025
+Activity,74,1,"Chambers, Butler and Adkins",119.99,133.9,42,10/21/2024
+Skin,75,3,Freeman Group,134.9,178.89,162,1/18/2025
+Sea,76,5,Fitzgerald-Morales,48.81,67.67,123,8/1/2024
+Rich,77,5,Small-Morales,85.2,116.61,154,7/15/2025
+Stock,78,3,Wang-Jones,70.07,98.15,38,9/21/2025
+Water,79,0,Baker-Jackson,97.07,145.54,52,7/30/2025
+Main,80,0,Sexton LLC,112.15,146.06,68,1/26/2025
+Your,81,5,Hess PLC,177.36,257.47,190,3/27/2025
+Fear,82,5,"Horne, Davis and Santos",39.97,57.3,361,9/30/2025
+Check,83,5,Fisher-Huber,126.22,188.69,335,7/25/2025
+Third,84,2,Crane Group,11.49,16.39,154,4/4/2025
+Well,85,0,"Bradford, Mathis and Walker",29.68,43.07,136,9/5/2025
+My,86,0,"Cohen, Miller and Hansen",179.05,250.13,80,8/3/2025
+Business,87,5,Dixon-Sawyer,63.53,75.24,176,6/6/2025
+Meet,88,1,Huff LLC,140.62,202.66,259,5/30/2024
+Building,89,3,Lewis Inc,57.71,84.44,27,7/2/2025
+Try,90,0,"Williamson, Robles and Lee",130.51,186.86,23,8/10/2025
+Top,91,0,Ellis-Morgan,73.38,84.56,135,4/14/2024
+Already,92,1,Johnson Group,150.83,199.2,219,12/14/2025
+Issue,93,2,Lindsey-Reynolds,11.84,13.38,453,1/13/2025
+Bag,94,0,"Perez, Hall and Scott",181.75,239.59,428,2/21/2025
+Address,95,5,"Whitehead, Evans and Smith",120.68,139.9,66,4/20/2024
+Court,96,0,"Ward, Walton and Brown",68.57,100.08,408,8/4/2025
+Vote,97,0,Donaldson and Sons,180.8,214.07,128,10/9/2024
+Tonight,98,0,"Martin, Shaw and Allen",29.53,41.7,453,8/8/2024
+Number,99,3,Taylor-Day,195.03,273,474,1/23/2024
+Simply,100,1,Kim-Davis,174.28,259.76,416,9/8/2025
+Somebody,101,1,Williams PLC,177.47,196.98,378,11/19/2024
+Rather,102,5,"Brown, Patterson and Green",158.65,200.64,343,11/3/2024
+Away,103,0,Hernandez LLC,164.04,197.95,404,4/2/2024
+Discussion,104,0,Mccann Ltd,30.54,44.25,440,2/9/2025
+Sound,105,3,Hayes LLC,52.26,74.56,236,8/4/2024
+Difference,106,5,Flores-Lee,67.99,96.42,117,4/8/2025
+Usually,107,1,Barnett-Nelson,14.5,17.07,169,3/4/2024
+Easy,108,5,Williams Ltd,174.23,259.04,143,4/10/2024
+Decide,109,5,Anderson Inc,131.88,166.15,432,4/7/2024
+Remember,110,2,Shannon LLC,72.92,81.02,450,4/16/2024
+Age,111,5,Barnett-Chen,43.93,65.24,136,7/9/2024
+Life,112,0,Schmidt-Terrell,30.6,38.98,374,6/14/2024
+Local,113,5,"Macdonald, Lucas and Thomas",92.91,138.78,60,10/14/2025
+Moment,114,3,Rodriguez-Jackson,180.91,212.76,23,6/29/2024
+Grow,115,0,Smith and Sons,92.85,121.44,413,8/21/2025
+Anyone,116,2,Adkins Group,140.5,207.39,378,1/5/2025
+Tend,117,0,Gonzalez-Adams,47.44,60.37,486,2/24/2024
+Economic,118,0,"Hughes, Williamson and Roberts",184.95,249.55,340,3/22/2025
+A,119,0,Coleman Ltd,146.75,179.05,159,11/15/2024
+Father,120,0,Sullivan-Sanchez,87.59,110.45,152,5/23/2025
+Along,121,2,Bennett-Brewer,34.18,43.35,482,7/23/2024
+Major,122,3,Thompson and Sons,138.69,202.64,316,4/20/2025
+Back,123,2,Perez-Coleman,67.18,88.62,1,6/17/2025
+If,124,5,"Wilson, Thomas and Marshall",64.51,82.05,297,4/27/2025
+Yeah,125,2,"Mullen, Rios and Williams",134.39,172.82,227,7/26/2025
+Arrive,126,0,Moreno-Pollard,50.6,65.24,462,6/18/2025
+During,127,0,Wallace-Lee,42.24,47.9,264,10/2/2024
+Think,128,0,Howard Ltd,130.26,160.75,420,4/9/2025
+Body,129,1,"Gilmore, Benjamin and Patrick",137.83,164,102,12/1/2024
+Charge,130,1,Williams-Moore,14.64,17.54,244,4/20/2024
+Bank,131,2,Richards-Lowery,171.45,193.59,213,1/16/2024
+Might,132,0,Davis-Barber,119.38,165.62,197,7/29/2025
+Base,133,3,Mckenzie and Sons,85.93,99.6,353,12/30/2024
+Light,134,0,Brown and Sons,179.61,259.39,454,1/28/2025
+Thing,135,0,Carlson-Archer,157.9,187.51,412,6/14/2024
+Security,136,0,Bradford-Ramirez,108.41,121.43,128,3/22/2025
+Reality,137,0,James-Turner,96.73,137.41,342,9/9/2024
+List,138,2,Santiago-James,197.7,264.56,487,2/10/2025
+Serious,139,3,Lowe PLC,126.4,175.41,259,10/26/2025
+Me,140,3,"Hoffman, Rivera and Pineda",167.81,221.37,460,7/16/2024
+Part,141,1,Garcia Inc,151.29,195.14,133,3/28/2024
+Keep,142,1,Ramos-Lopez,169.57,205.34,399,8/27/2024
+Herself,143,2,Waters-Wilson,102.07,122.04,226,6/3/2025
+Guess,144,0,"Sawyer, Yates and Sanders",145.57,173.78,172,12/21/2024
+Clearly,145,5,"Rodriguez, Baker and Dunn",179.68,203.44,78,3/3/2025
+Pick,146,1,Howard-Lewis,82.78,96.12,110,4/3/2025
+Friend,147,0,Henderson-Jacobs,88.82,109.46,239,11/1/2024
+Daughter,148,3,Johnson and Sons,21.83,31.29,200,7/31/2024
+Anyone,149,2,"Boyd, Hayes and Doyle",189.75,210.21,451,11/2/2024
+Way,150,2,"Baldwin, Young and Stephens",82.27,90.69,181,3/10/2025
+Land,151,5,"Harrell, Watkins and Rodriguez",153.16,220.76,489,7/26/2025
+Method,152,3,Glass Ltd,112.26,156.47,410,12/6/2025
+Point,153,2,Watts-Norman,180.58,233.9,140,8/18/2024
+Ready,154,3,Peterson-Golden,102.27,128.4,343,10/25/2024
+Voice,155,0,Richardson Inc,161.65,224.64,431,1/22/2025
+Treatment,156,3,Duncan Inc,184.71,275.64,274,5/18/2025
+Entire,157,0,Patrick PLC,182.32,243.72,340,10/21/2024
+Carry,158,0,Dunn and Sons,25.95,32.99,444,12/22/2024
+Better,159,3,Johnson-Smith,44.53,53.62,168,3/10/2024
+Identify,160,1,Boyd PLC,96.39,119.04,451,7/9/2024
+Purpose,161,3,Olson-Reese,62.87,93.08,216,1/27/2024
+Understand,162,5,Hernandez PLC,168.63,217.22,384,3/30/2025
+Offer,163,2,"Clark, Luna and Stewart",19.9,29.47,115,2/28/2025
+Structure,164,0,Cox Inc,23.04,34.17,21,10/30/2025
+Past,165,0,"Kennedy, Ball and Rhodes",190.43,224.66,11,5/5/2024
+Stuff,166,2,Pham-Morris,38.95,44.81,343,4/15/2025
+Movement,167,0,Nguyen-Ellis,117.15,139.08,359,8/15/2024
+At,168,5,"Mercado, Baird and Lewis",155.71,181.73,311,5/20/2024
+Occur,169,0,Gonzalez-House,146.49,206.71,84,2/5/2024
+Contain,170,5,Steele and Sons,30.54,33.91,160,1/5/2024
+Improve,171,2,Taylor Inc,138.7,205.73,204,6/12/2025
+Consider,172,0,"Strickland, Mitchell and Finley",47.68,63.74,426,8/6/2025
+Find,173,0,Clayton-Hanson,56.14,77.41,155,1/8/2025
+Crime,174,0,Kramer-Hayes,124.08,142.5,290,9/28/2025
+Outside,175,0,Walls-Hobbs,75.97,96.58,190,8/20/2024
+Speech,176,0,"Scott, Washington and Brown",106.13,131.23,435,4/10/2025
+Toward,177,3,Mcpherson-Brewer,166.24,189.88,492,7/27/2024
+Almost,178,5,Nielsen-Wright,130.76,187.18,363,11/9/2024
+Scene,179,1,Perry Inc,92.74,129.23,495,11/14/2024
+Mrs,180,0,Brooks-Padilla,61.32,87.28,276,6/8/2025
+Type,181,3,"Crosby, Spence and Cardenas",98.33,140.64,304,4/30/2024
+Interview,182,5,"Tucker, Middleton and Chang",71.24,85.36,479,11/24/2025
+And,183,0,"Mclaughlin, Johnson and Hoover",63,80.66,385,1/10/2024
+Girl,184,3,Young-Everett,118.27,161.71,173,6/9/2025
+Allow,185,0,Gill Ltd,103.92,127.82,250,7/22/2024
+Door,186,1,Manning Ltd,77.42,93.16,144,12/6/2024
+Support,187,2,"Reed, Perez and Ortiz",143.22,173.37,6,10/25/2025
+Operation,188,2,Hays LLC,190.13,215.65,369,10/25/2024
+Professional,189,3,Burns Inc,102.83,144.3,354,1/1/2024
+Physical,190,3,Conley-Conway,132.72,172.05,406,11/26/2025
+Glass,191,0,Rollins Ltd,27.68,32.9,355,4/16/2025
+House,192,1,"Johnson, Garcia and Patton",68.18,90.86,243,12/3/2024
+Yourself,193,2,Meyer Inc,110.88,140.84,382,8/29/2025
+Player,194,2,"Johnson, Miller and Davis",72.85,100.62,139,11/6/2025
+Weight,195,5,"Weiss, Wilson and Barker",57.77,66.34,99,2/29/2024
+Loss,196,5,"Woodward, Dalton and Snow",32.72,43.01,391,6/9/2025
+Challenge,197,0,Escobar-Osborne,45.18,53.61,248,7/5/2024
+Allow,198,5,Little-Hardin,147.67,220.12,269,1/28/2024
+Create,199,2,Wright-Frazier,63.77,72.71,100,4/2/2025
+High,200,5,Robinson Group,53.22,62.36,8,9/1/2025
+Effect,201,0,Watson Group,111.49,134.87,499,4/14/2024
+Catch,202,0,Farley-Huff,115.14,158.77,65,5/11/2025
+Create,203,0,"Johnson, Hopkins and Freeman",175.01,226.87,447,9/15/2025
+Those,204,0,Gonzalez-Hatfield,119.07,153.33,226,2/1/2025
+Serious,205,5,"French, Hayes and Williams",45.03,50.46,482,6/29/2025
+Group,206,3,Smith LLC,31.68,35.68,252,10/25/2024
+Expect,207,0,Hanna-Waters,119.63,164.44,78,12/14/2024
+Mission,208,1,Clark-Bell,164.12,242.84,44,6/24/2024
+History,209,1,"Wright, Maxwell and Hunter",32.51,45.7,311,7/2/2024
+Visit,210,2,"Jimenez, Cantu and Weeks",160.24,190.73,268,4/5/2024
+Sure,211,3,Nelson and Sons,95.6,122.09,441,5/25/2025
+Page,212,2,Hill LLC,198.11,242.12,318,7/3/2025
+Expect,213,0,Reed-Kramer,125.83,175.66,486,11/1/2025
+Word,214,1,Porter-Johnson,128.85,155.37,42,6/8/2024
+Police,215,1,Cox Group,55.57,73.4,81,6/2/2024
+Letter,216,0,Jensen Group,87.62,120.54,241,10/20/2025
+Resource,217,5,Young-Moyer,16.2,19.69,145,4/3/2024
+Police,218,0,"Hughes, Burgess and Craig",173.33,195.6,120,10/18/2025
+Know,219,5,Williams-Jones,159.69,215.59,339,6/24/2024
+Himself,220,1,"Hobbs, Mckenzie and Murphy",90.78,119.63,332,11/2/2025
+Phone,221,1,Travis-Wallace,182.6,261.24,37,5/30/2025
+Scene,222,0,Johnson-Dorsey,41.53,50.79,384,8/24/2025
+Opportunity,223,2,White PLC,185.03,236.04,240,5/23/2025
+More,224,0,Dixon Ltd,67.78,85.47,140,12/13/2025
+Final,225,2,Wood Inc,112.6,143.58,307,6/12/2025
+Smile,226,0,Santos-Mcneil,178.99,249.48,310,4/15/2025
+Most,227,5,Mcclain LLC,14.91,17.77,346,5/14/2024
+Hot,228,2,"Johnson, Hester and Butler",121.55,134.71,392,3/17/2025
+Modern,229,0,Collins-Cruz,166.07,220.96,391,2/21/2025
+Around,230,1,Reilly-Lewis,99.4,135.24,470,4/26/2024
+Century,231,5,Molina LLC,44.48,59.34,326,6/14/2024
+Help,232,3,"Cordova, Long and Fisher",194.12,250.03,210,10/24/2025
+Any,233,5,Austin-Hernandez,71,81.07,83,6/23/2025
+Movie,234,5,"Stone, Yang and Noble",88.21,114.51,340,4/12/2025
+Bring,235,3,"Webster, Frazier and Mcdaniel",164.58,217.25,233,6/27/2024
+Accept,236,0,Lynch-Medina,69.76,85.76,497,1/12/2025
+Thus,237,3,"Rodriguez, Beck and Johnston",174.33,249.29,1,2/18/2025
+What,238,0,Castaneda Group,175.18,225.07,28,9/13/2024
+Actually,239,1,Williams Ltd,108.5,146.37,256,5/10/2024
+Voice,240,0,Walton-Roberson,93.99,105.33,137,3/8/2024
+Already,241,2,Sullivan PLC,34.89,42.4,451,5/11/2025
+First,242,0,Wright Group,102.1,113.49,323,8/31/2024
+These,243,2,Sanders-Frye,161.87,224.01,160,10/4/2024
+Contain,244,2,"Fox, Martinez and Ward",12.6,15.92,116,7/2/2024
+Concern,245,0,Anderson-Patel,97.68,112.04,427,7/15/2024
+Professor,246,1,"Benitez, Marquez and Owen",104.69,145.17,261,3/3/2024
+Control,247,0,Stevenson-Kim,61.95,88.83,242,9/4/2024
+Huge,248,1,Sims Inc,96.79,112.07,98,2/12/2024
+Crime,249,2,Hunter-Dalton,106.57,154.71,443,9/10/2025
+Feel,250,0,Simpson-Johnson,62.49,88.49,213,8/30/2024
+Five,251,5,Roberson PLC,187.51,244.34,421,5/1/2025
+Section,252,0,"Price, Thomas and Perez",63.74,77.73,301,1/3/2025
+Wish,253,2,Henry-Jackson,199.79,258.9,77,5/7/2025
+Join,254,3,Phillips Group,112.33,139.07,283,5/16/2025
+Body,255,2,Johnson PLC,81.67,120.31,446,3/16/2025
+Expert,256,1,"Davis, Porter and Oliver",196.35,234.74,197,11/12/2024
+Plant,257,1,Duke-Smith,172.64,218.27,163,9/8/2025
+Card,258,0,Castro PLC,99.87,146.35,196,7/10/2024
+Car,259,3,Burgess Inc,197.8,280.27,334,7/30/2024
+His,260,1,Williams LLC,104.11,116.06,258,5/12/2025
+There,261,2,Harris-Price,73.08,83.32,433,12/11/2024
+Interest,262,3,Erickson-Hernandez,28.95,42.39,8,12/24/2025
+Recently,263,0,"Rose, Matthews and Smith",37.39,54.15,497,6/23/2024
+Pm,264,1,Roberts-Beck,24.22,34.21,136,3/23/2025
+Voice,265,5,Lutz-Bradley,128.42,161.68,42,3/8/2025
+Of,266,5,Taylor Ltd,171.94,248.24,195,10/31/2025
+Thing,267,5,Norman Ltd,129.09,187.82,250,6/5/2025
+Easy,268,2,Gross Inc,16.82,18.96,324,5/26/2024
+Step,269,0,Meyer Inc,184.98,277.28,383,11/10/2025
+Century,270,0,Brown and Sons,92.45,105.34,325,9/3/2024
+Stock,271,0,"Terry, Garcia and Williams",175.79,224.57,356,11/15/2025
+Sound,272,5,Swanson-Randall,181.65,203.16,408,1/4/2025
+Law,273,0,"Solis, Johnson and Liu",65.74,82.17,75,3/25/2025
+Born,274,1,Turner and Sons,110.92,147.12,406,6/18/2025
+Produce,275,1,Young LLC,42.3,47.87,446,7/14/2025
+Fund,276,3,Evans-Brown,127.74,152.82,468,11/23/2024
+No,277,2,Alvarez-Steele,37.19,47.77,131,5/30/2025
+Risk,278,3,"Carlson, Williams and Black",58.51,64.58,412,1/7/2024
+Develop,279,3,Warren Ltd,181.23,248.47,81,8/29/2025
+Rise,280,0,"Ryan, Houston and Hernandez",93.93,116.31,301,2/7/2025
+Allow,281,5,"Hill, James and Winters",131.4,166.84,129,8/6/2025
+Better,282,3,Brady-Vega,170.61,201.27,197,6/30/2024
+Building,283,3,Brown LLC,30.26,37.9,184,4/1/2025
+Send,284,2,"Garcia, Figueroa and Jones",66.22,91.36,12,12/25/2025
+Parent,285,0,"Rowe, Mcgee and Coleman",85.2,94,443,7/19/2025
+Door,286,0,Moore and Sons,157.88,235.15,467,7/24/2025
+Billion,287,2,Fleming and Sons,151.58,217.23,463,8/7/2024
+None,288,5,"Arias, Barber and Jones",157.39,187.62,411,4/1/2025
+Family,289,5,Lynch PLC,51.61,60.7,129,6/1/2024
+New,290,0,Sparks and Sons,153.56,216.06,349,10/17/2024
+Effort,291,1,Villegas Group,129.37,189.06,331,7/19/2024
+Kind,292,0,Smith-Kelly,68.7,87.68,297,6/11/2025
+Three,293,5,Ryan-Phillips,149.15,169.44,152,6/9/2025
+Size,294,5,Moore LLC,152.02,177.9,68,8/3/2025
+Work,295,2,Gilbert-Rice,176.53,220.02,257,12/30/2024
+Fight,296,5,Berg-Holmes,167.79,201.82,423,6/5/2024
+Again,297,3,"Huerta, Martinez and Abbott",193.8,236.06,446,2/24/2024
+Manage,298,5,"Riggs, Shelton and Herrera",162.8,209.58,39,7/29/2024
+Trial,299,1,"Gonzalez, Zavala and Bryant",153.29,182.45,347,1/31/2024
+Day,300,0,"Brown, Smith and Johnston",138.14,173.91,434,4/9/2024
+Sense,301,2,Weaver-Bradley,79.5,112.59,8,6/1/2025
+Born,302,5,Reed-Newman,111.95,143.51,345,10/14/2025
+Debate,303,0,"Moss, Hamilton and Travis",137.74,183.72,422,7/16/2025
+Great,304,0,"Cruz, Downs and Wilcox",188.66,215.7,120,4/7/2024
+Stage,305,3,"Villarreal, Fletcher and Reed",14.75,21.44,288,8/11/2024
+Production,306,5,Booth-Thomas,183.9,218.57,33,3/11/2024
+American,307,0,"Butler, Maddox and Combs",166.53,243.76,155,1/15/2024
+Economic,308,0,Smith PLC,87.58,101.23,485,8/14/2024
+There,309,0,Patel PLC,67.83,87.98,50,12/8/2024
+Reality,310,1,"Bennett, Gomez and Bridges",178.58,206.13,233,8/6/2024
+Usually,311,5,"Fields, Torres and Lawrence",137.39,191.97,485,2/14/2025
+Try,312,2,"Whitehead, Jordan and Robinson",89.63,125.2,80,7/11/2024
+Task,313,3,Nguyen-Smith,134.44,192.72,316,12/7/2025
+Character,314,3,Craig LLC,188.42,228.35,354,2/18/2024
+Increase,315,5,Reed-Odonnell,51.28,65.53,121,5/29/2024
+Take,316,5,Baker-Cooper,28.88,39.69,279,7/29/2025
+Degree,317,0,Cruz PLC,78.15,98.41,98,3/8/2025
+Station,318,0,Crosby LLC,190.31,272.08,47,5/15/2024
+Suffer,319,0,Green Group,50.3,68.2,498,10/9/2024
+Home,320,0,"Lopez, Oneal and Reid",19.61,24.19,65,3/22/2025
+Task,321,2,Grimes Ltd,48.99,70.15,284,9/17/2024
+Idea,322,1,Miller Group,121.41,173.04,120,8/25/2025
+Find,323,5,"Richmond, Cunningham and Gonzalez",157.13,222.41,306,6/27/2024
+Happen,324,0,Rodriguez-Newman,62.68,93.62,67,11/22/2024
+Finally,325,2,Kennedy Group,57.62,67.4,339,1/29/2025
+High,326,0,Payne-Baker,35.04,43.57,404,8/8/2025
+Positive,327,1,"Williams, Fry and Wells",121.88,134.84,136,12/25/2025
+Stage,328,0,Richards and Sons,34.08,43.23,59,3/28/2025
+Ask,329,0,"Sanders, Brown and Smith",22.08,28.25,186,9/14/2024
+Live,330,2,Mcgrath-Carter,122.8,157.28,114,2/24/2025
+Safe,331,2,Chaney Inc,18.24,25.78,444,7/24/2024
+Bar,332,0,"Benitez, Gomez and Davis",109.08,139.97,494,2/1/2024
+Then,333,0,Murphy Group,21.56,27.85,206,7/13/2024
+Man,334,3,Wright PLC,140.36,181.92,466,1/12/2025
+Sure,335,3,Johnson-Nelson,23.96,27.13,312,12/23/2025
+Me,336,1,Smith Inc,22.48,27.2,325,10/24/2024
+Ever,337,2,"Blackwell, Contreras and Savage",114.19,140.46,306,8/28/2025
+Study,338,2,"Benson, Flores and Wood",66.03,85.99,221,4/15/2024
+Recent,339,0,Reilly PLC,160.69,184.11,336,2/14/2024
+Long,340,0,Aguilar Inc,176.76,233.42,444,12/21/2024
+Turn,341,1,"Barry, Mckinney and Meza",91.71,133.46,212,12/22/2024
+Enough,342,5,"Taylor, Diaz and Holloway",167.21,210.6,374,11/13/2025
+Degree,343,0,Murphy-Thomas,69.38,84.99,131,4/1/2024
+Possible,344,5,"Johnson, Davis and Nicholson",191.18,262.82,243,3/6/2024
+Rise,345,0,"Miller, Hester and Hogan",27.33,31,222,12/12/2025
+Bad,346,0,Smith and Sons,151.47,189.19,67,6/25/2025
+Especially,347,2,Rivas-Ray,21.4,31.73,288,9/21/2025
+Reason,348,5,"Cantu, Bradley and Baird",137.3,173.59,448,1/11/2024
+Material,349,0,"Tyler, Weber and Reed",188.81,239.63,469,9/7/2025
+Yes,350,0,Baker Group,19.77,24.02,160,1/2/2024
+Show,351,5,Nelson and Sons,29.68,38.67,80,8/1/2024
+Hope,352,0,Romero-Gibbs,101.62,146.22,180,4/16/2024
+Continue,353,2,"Mccarty, Murphy and Lamb",79.84,112.18,294,6/1/2025
+Difficult,354,1,Brown-Owens,163.37,234.94,499,7/27/2025
+Smile,355,2,Graves-Barrett,126.58,171.78,14,4/24/2025
+Sort,356,2,Ramos-Hernandez,186.53,267.07,137,9/26/2024
+Bad,357,0,Vega Inc,44.28,61.15,159,1/12/2024
+Set,358,5,Mcdaniel-Moore,76.69,89.92,74,3/19/2025
+Notice,359,2,Smith-Mendoza,134.9,152.14,380,10/6/2025
+Art,360,0,Walters Inc,194.64,221.25,272,11/20/2024
+Son,361,1,Hood and Sons,81.48,104.41,81,8/19/2024
+Case,362,5,Lewis-Roberts,69.21,85.11,483,8/24/2025
+No,363,2,Evans-Graves,123.28,179.17,80,12/25/2024
+Lawyer,364,1,Shah-Cabrera,153.34,171.73,42,2/10/2025
+Report,365,5,Rhodes Inc,94.19,119.58,311,4/20/2024
+Magazine,366,3,Casey-Roberts,88.69,105.21,263,5/3/2025
+Front,367,0,"Cochran, Campbell and Kennedy",75.58,86.49,348,12/9/2025
+Support,368,0,Barnett-Garcia,122.7,160.83,158,4/28/2024
+Enter,369,0,Davila-Brennan,51.9,77.53,29,5/7/2025
+Claim,370,0,Gonzalez-Scott,48.84,72.19,393,5/13/2024
+Institution,371,1,Richardson-Cantrell,155.19,188.68,62,2/7/2025
+Reveal,372,0,Hughes-Lopez,104.5,132.95,67,1/23/2025
+Bad,373,3,Russell LLC,111.19,132.54,287,3/9/2025
+None,374,0,Lester-Wong,163.18,184.2,442,2/11/2025
+Eight,375,0,Mitchell and Sons,18.04,19.98,472,5/9/2025
+Heavy,376,0,"Ross, Tate and Crane",173.8,231.21,294,5/23/2025
+Watch,377,3,"Vance, Poole and Parker",144.8,183.47,59,12/6/2025
+Mrs,378,3,"Parks, Petty and Howard",13.96,17.17,411,1/16/2024
+Ago,379,2,Santiago Group,97.42,134.03,186,8/28/2025
+Music,380,0,"Smith, Clark and Huang",92.98,106.22,224,12/13/2024
+Pretty,381,2,"Wright, Peterson and Morales",86.09,97.41,446,3/7/2024
+Move,382,5,"Martinez, Young and Wheeler",151.7,180.31,399,8/22/2025
+Marriage,383,1,Morris-Diaz,24.51,33.17,272,10/26/2025
+View,384,2,"Brewer, Cannon and King",46.84,66.07,180,8/31/2025
+Learn,385,0,"Taylor, Stein and Campbell",192.06,260.85,76,12/18/2025
+Although,386,1,"Oneal, Carey and Bush",29.53,35.51,89,4/1/2025
+Purpose,387,2,"Fisher, Burgess and Cummings",39.05,54.81,39,3/23/2024
+Herself,388,1,Ford Inc,190.75,257.74,238,8/3/2025
+How,389,2,"Jackson, Lopez and Ferguson",154.38,197.54,474,2/24/2025
+Door,390,2,Griffin Ltd,132.17,197.54,166,5/26/2024
+Mouth,391,0,Reeves-Luna,70.07,89.4,241,3/27/2024
+Court,392,3,"Simpson, Gibson and Smith",129.96,184.35,303,4/3/2025
+Past,393,0,King LLC,76.87,86.84,237,12/13/2025
+Of,394,3,Gonzalez Inc,17.15,21.39,147,5/29/2024
+Play,395,0,Willis-Hubbard,132.49,197.54,47,6/17/2024
+Still,396,2,Wood Ltd,122.88,154.07,298,12/17/2025
+Throw,397,2,Terry PLC,191.3,266.97,22,8/25/2025
+Finally,398,3,Jones Inc,182.72,242.77,97,5/23/2025
+Skin,399,5,"Nichols, Erickson and Kim",124.95,162.5,491,11/15/2025
+Newspaper,400,0,Anderson-Hayes,95.6,136.17,429,6/25/2025
+Thus,401,5,Roberts-Flores,196.65,222.95,331,3/24/2024
+Weight,402,1,Zuniga-Pope,17.44,24.12,225,4/8/2024
+Customer,403,2,Allen PLC,109.32,127.19,191,9/1/2025
+Medical,404,5,Barr LLC,83.61,117.87,348,7/9/2024
+Assume,405,2,Johnson PLC,19.95,26.98,172,9/29/2024
+Two,406,0,Smith-Morgan,72.64,96.12,198,7/27/2024
+Crime,407,5,Lamb Ltd,57.88,83.38,494,3/25/2025
+Hundred,408,2,Dixon Group,175.92,216.97,299,9/17/2025
+Claim,409,0,Williams-Clements,36.87,45.72,496,1/19/2024
+Provide,410,0,"Webb, Brown and Simmons",142.71,179.36,305,1/8/2024
+Born,411,0,"Mcguire, Sullivan and Petersen",188.22,230.35,193,6/26/2024
+Long,412,0,Vance-Cobb,160.42,228.64,344,1/9/2025
+Condition,413,0,Hebert PLC,167.5,233.75,351,7/24/2024
+Turn,414,2,Calderon-Newman,27.76,37.98,261,1/10/2025
+Serve,415,5,"Harris, Washington and Smith",13.46,16.47,487,12/2/2024
+Enter,416,1,Vance PLC,74.93,105.39,99,5/30/2025
+Could,417,1,Livingston-Morales,200,232.4,152,9/6/2024
+Certainly,418,0,Ortiz and Sons,106.46,140.09,379,2/10/2025
+Easy,419,2,Rodriguez-Williams,17.17,21.2,393,8/17/2024
+Throughout,420,2,Patel LLC,34.9,43.65,84,2/21/2025
+Report,421,1,"Andrade, Thompson and Anderson",167.96,236.56,415,9/25/2025
+View,422,1,Morgan PLC,147.02,164.29,187,10/28/2024
+Out,423,0,"Williams, Ortiz and Smith",146.72,218.3,313,11/15/2024
+Simple,424,5,"Thompson, Spencer and Williams",152.95,216.2,120,11/7/2025
+Black,425,2,"Allen, Lane and Kim",55.44,82.4,402,8/23/2025
+What,426,3,Aguilar Group,181.76,214.04,348,7/5/2024
+Receive,427,2,Fisher-Warren,197.04,253.13,145,7/10/2024
+Allow,428,3,Gomez-Sharp,105.55,133.78,83,4/26/2024
+To,429,1,Larson Group,162.24,187.45,129,10/18/2024
+Resource,430,0,Aguilar and Sons,131.82,191.09,284,8/5/2025
+Yes,431,0,Grimes PLC,145.17,189.64,64,10/24/2025
+Herself,432,5,"Calhoun, Rodriguez and Brady",25.94,30.2,231,10/2/2024
+Growth,433,2,"Rosario, Garcia and Johnson",38,48.45,485,4/11/2025
+Pass,434,1,"Humphrey, Hudson and Weiss",165.17,240.13,477,7/6/2024
+Me,435,0,"Morrison, Clark and Romero",88.83,111.8,192,12/11/2024
+See,436,1,Hale-Carter,83.37,94.43,115,6/14/2024
+Shake,437,0,Archer LLC,70.55,80.4,366,6/3/2025
+Weight,438,0,Tate-Mosley,73.71,85.39,20,1/19/2024
+Crime,439,5,"Smith, Sutton and Decker",184.31,237.57,426,9/29/2024
+Better,440,1,Hicks-Bruce,154.18,198.53,316,6/19/2024
+Dinner,441,0,Turner-Shah,182.11,201.71,111,9/20/2025
+Audience,442,1,"Taylor, Terrell and Myers",114.27,158.94,271,3/8/2024
+Play,443,3,Mcintyre Ltd,31.13,37.83,155,8/19/2024
+Rate,444,0,Jordan Group,19.07,24.18,407,1/1/2024
+Could,445,2,Stanton-Rodriguez,96.85,110.83,464,4/27/2024
+Prepare,446,3,Wood Group,123.38,136.53,264,7/30/2025
+Student,447,2,Mitchell-Hale,55.97,64.78,220,10/19/2025
+Long,448,0,Gibson Ltd,126.81,151.69,214,12/31/2024
+Director,449,1,"Andrews, Miller and Smith",136.23,154.52,500,6/21/2024
+Either,450,5,Cantrell and Sons,22.86,29.96,260,4/23/2024
+Body,451,2,Wood-Harris,115.29,144.83,241,9/5/2025
+Level,452,0,"Butler, Spencer and Martinez",130.78,195.18,130,7/7/2025
+Help,453,0,Carlson Group,13.09,18.53,177,10/24/2025
+Form,454,1,"Golden, Mcfarland and Schultz",149.26,201.7,396,10/8/2025
+Office,455,2,Howell-Chavez,149.69,184.57,23,6/29/2025
+Beautiful,456,5,"Levine, Hudson and Anderson",113.74,162.13,90,5/2/2025
+Cause,457,0,Martinez-Lewis,98.28,135.45,324,11/6/2024
+Out,458,1,"Haynes, Robertson and Orozco",164.18,184.74,398,10/4/2024
+Else,459,3,Klein-Jones,17.03,20.11,406,3/2/2025
+Song,460,1,Morse-Taylor,178.3,218.64,159,7/9/2025
+Other,461,2,"Mckenzie, Cisneros and Hooper",85.66,122.17,243,12/13/2024
+Skill,462,5,Farmer LLC,16.96,23.04,147,1/29/2024
+All,463,5,Ray-Hernandez,173.81,194.51,336,4/2/2025
+Contain,464,5,Perez-Hernandez,61.91,87.9,224,8/20/2025
+Strategy,465,3,"Castillo, Jensen and Mitchell",151.23,220.47,198,3/19/2025
+According,466,5,Brown-Stafford,195.01,253.22,255,8/16/2025
+Mother,467,5,"Simpson, Hoover and Brown",185.62,242.74,411,11/29/2025
+Others,468,0,Schmidt-Rodriguez,148.15,167.64,309,3/14/2024
+Story,469,1,Hamilton-Kline,113.64,139.6,41,1/16/2025
+Happy,470,5,Gonzalez-Hall,135.57,165.75,309,6/28/2024
+General,471,0,"Rogers, Garcia and Dyer",90.96,125.15,180,7/6/2024
+Simply,472,3,Brown and Sons,18.05,26.14,181,12/19/2025
+Himself,473,2,Ortiz-Ferguson,199.65,241.54,406,3/26/2024
+Opportunity,474,0,Olson-Mejia,24.26,32.87,187,11/5/2025
+Wide,475,2,Benson and Sons,162.21,222.51,488,3/6/2024
+Wrong,476,0,Jordan Inc,37.13,49.87,401,3/11/2024
+Medical,477,3,"Graham, Parker and Long",16.61,18.72,399,10/7/2024
+Concern,478,0,Bond PLC,79.6,99.75,291,4/3/2024
+Economic,479,0,Cox PLC,124.97,171.41,486,5/15/2024
+Owner,480,5,Mills Ltd,80.68,113.37,294,1/21/2025
+See,481,1,Dickerson-Chapman,110.6,139.27,333,7/23/2024
+Water,482,5,Lewis Inc,57.43,65.78,377,1/30/2025
+Evidence,483,1,"Gray, Mcguire and Lee",104.82,131.53,288,7/29/2024
+Most,484,0,"Hogan, Barnes and Brooks",59.74,71.93,229,5/1/2024
+Really,485,1,"Livingston, Nelson and Burgess",199.31,242.01,470,9/7/2024
+Call,486,3,Warner and Sons,48.03,55.44,38,5/19/2024
+Whose,487,3,Alvarez Ltd,42.8,59.29,45,2/23/2025
+Character,488,0,"Padilla, Moody and Cooper",193.84,289.72,342,10/14/2024
+Plan,489,5,Brown and Sons,144.81,191.15,149,9/7/2024
+Executive,490,5,Jones-Walton,171.76,237.84,475,11/26/2024
+Choose,491,0,"Gordon, Davis and Johnson",131.16,185.92,261,2/17/2024
+Detail,492,1,"Morris, Williams and Combs",33.06,39.02,72,6/16/2025
+Indicate,493,1,Carey-Moore,160.17,177.87,284,4/7/2025
+Ask,494,2,"Richmond, Ramirez and Mason",80.09,113.85,283,6/11/2024
+Around,495,1,Adams-Riley,126.27,143.25,159,9/4/2024
+Dream,496,3,Bailey-Johnson,199.92,277.4,270,9/22/2025
+Decade,497,3,Webster LLC,156.14,223.18,38,7/10/2025
+Action,498,1,Arnold Group,194.75,264.26,231,12/5/2024
+Dark,499,3,Murphy LLC,139.22,172.33,450,11/23/2024
+Reach,500,2,Carney-Miller,131.56,154.29,495,6/11/2024

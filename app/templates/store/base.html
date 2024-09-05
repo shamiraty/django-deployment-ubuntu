@@ -1,0 +1,141 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+
+body {
+            
+            font-family: 'Roboto', sans-serif;
+            font-size: 18px;
+            color: #333;
+            line-height: 1.6;
+            background-color: #f8f9fa; /* Light background color for the page */
+        } 
+       
+        .text-primary {
+            color: #205493 !important;
+        }
+    
+        .text-success {
+            color: #205493 !important;
+        }
+    
+        .accordion-button {
+            background-color: #dbdddb !important;
+            padding: 15px; /* Adjust padding as needed */
+            transition: transform 0.3s ease, background-color 0.3s ease; /* Smooth transition for the zoom effect and background color */
+            border: 1px solid #ccc; /* Light border to match the background color */
+        }   
+        .accordion-button:hover {
+            transform: scale(1.08); /* Zoom in slightly when hovered */
+            background-color: #c4c4c4 !important; /* Slightly darker background color on hover */
+        }
+    
+       .alert-light {
+            background-color: #d5dedd  !important;
+            padding: 15px; /* Adjust padding as needed */           
+            transition: transform 0.3s ease; /* Smooth transition for the zoom effect */
+            border-radius: 8px; /* Rounded corners */
+        }
+    
+        .alert-light:hover {
+            transform: scale(1.02); /* Slight zoom effect when hovered */
+            border-color: #205493; /* Change border color on hover */
+        }
+    
+        .bg-light {
+            background-color: #d5dedd !important;
+          
+        }
+        .bg-primary {
+          background-color: #d5dedd !important;
+        
+      }
+      
+        
+    </style> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Supermarket System{% endblock %}</title>
+    <link href="{% static 'bootstrap/css/ajax_cloudfare.css' %}" rel="stylesheet">
+    <link href="{% static 'bootstrap/css/fonts.css' %}" rel="stylesheet">
+    <link href="{% static 'bootstrap/css/datatable.css' %}" rel="stylesheet">
+    <link href="{% static 'bootstrap/css/theme6.css' %}" rel="stylesheet">
+    <link href="{% static 'bootstrap/css/ajax_jquery.css' %}" rel="stylesheet">
+    <link href="{% static 'bootstrap/awesome/css/all.min.css' %}" rel="stylesheet">
+    <link href="{% static 'bootstrap/awesome/css/fontawesome.min.css' %}" rel="stylesheet">
+    <link href="{% static 'bootstrap/css/awaresome.css' %}" rel="stylesheet">
+    <link href="{% static 'bootstrap/css/bootstrap_buttons.css' %}" rel="stylesheet">
+    {% block extra_css %}{% endblock %}
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="{% url 'product_list' %}">INVENTORY MIS</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav me-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="{% url 'product_list' %}">Product List</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="{% url 'profit_loss_report' %}">Profit/Loss Report</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="{% url 'analytics' %}">Analytics</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="{% url 'admin:index' %}">Dashboard</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-sm-2" type="search" placeholder="Search">
+              <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      
+
+    <div class="container-fluid mt-4">
+        {% if messages %}
+            <div class="alert alert-info">
+                {% for message in messages %}
+                    <p>{{ message }}</p>
+                {% endfor %}
+            </div>
+        {% endif %}
+
+        {% block content %}
+        <div class="container mt-4">
+
+        </div>
+        {% endblock %}
+    </div>
+
+    <footer class="bg-dark text-white text-center py-3 mt-4">
+        &copy; {{ current_year }} Supermarket System
+    </footer>
+
+    <script src="{% static 'bootstrap/js/jquery.js' %}"></script>
+    <script src="{% static 'bootstrap/js/jquery_ajax.js' %}"></script>
+    <script src="{% static 'bootstrap/js/jquery_datatable.js' %}"></script>
+    <script src="{% static 'bootstrap/js/datatable.js' %}"></script>
+    <script src="{% static 'bootstrap/js/bootstrap.js' %}"></script>  
+    <script src="{% static 'bootstrap/js/datatable_ui.js' %}"></script>
+    <script src="{% static 'bootstrap/js/datatable_bootstrap.js' %}"></script>
+
+    <script src="{% static 'bootstrap/js/jquery_datatable.js' %}"></script>
+    <script src="{% static 'bootstrap/js/datatable.js' %}"></script>
+    <script src="{% static 'bootstrap/js/buttons.colVis.min.js' %}"></script>
+    <script src="{% static 'bootstrap/js/bootstrap_buttons.js' %}"></script>
+    <script src="{% static 'bootstrap/js/datatable_zip.js' %}"></script>
+    <script src="{% static 'bootstrap/js/datatable_v2.js' %}"></script>
+    <script src="{% static 'bootstrap/js/datatable_copy.js' %}"></script>
+    {% block js %}
+    {% endblock %}
+</body>
+</html>

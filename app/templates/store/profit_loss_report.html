@@ -1,0 +1,130 @@
+{% extends 'store/base.html' %}
+{% block title %}Profit and Loss Report{% endblock %}
+{% load humanize %}
+{% block content %}
+<style>
+    #table1 th, #table1 td{
+        border: 1px solid #dee2e6;
+        padding: 8px;
+        text-align: left;
+    }  
+</style>
+    <div class="card">
+        <div class="card-body">
+            <!-- Machine Learning Metrics Section -->
+            <h5>Machine Learning Model Evaluation Metrics:</h5>
+            <div class="row">
+                <!-- Mean Absolute Error (MAE) -->
+                <div class="col-md-4 mb-1">
+                    <div class="card text-white bg-primary mb-3">
+                        <div class="card-header"><i class="fa fa-chart-line"></i> Mean Absolute Error (MAE)</div>
+                        <div class="card-body">
+                            <h5 class="card-title">{{ mae|floatformat:2 }}</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Mean Squared Error (MSE) -->
+                <div class="col-md-4 mb-1">
+                    <div class="card text-white bg-warning mb-3">
+                        <div class="card-header"><i class="fa fa-exclamation-triangle"></i> Mean Squared Error (MSE)</div>
+                        <div class="card-body">
+                            <h5 class="card-title">{{ mse|floatformat:2 }}</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- R-squared (R²) -->
+                <div class="col-md-4 mb-1">
+                    <div class="card text-white bg-success mb-3">
+                        <div class="card-header"><i class="fa fa-bullseye"></i> R-squared (R²)</div>
+                        <div class="card-body">
+                            <h5 class="card-title">{{ r2|floatformat:4 }}</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Adjusted R-squared (Adj. R²) -->
+                <div class="col-md-4 mb-1">
+                    <div class="card text-white bg-danger mb-3">
+                        <div class="card-header"><i class="fa fa-adjust"></i> Adjusted R-squared (Adj. R²)</div>
+                        <div class="card-body">
+                            <h5 class="card-title">{{ adj_r2|floatformat:4 }}</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <h5 class="card-title">Profit and Loss Report</h5>         
+            <!-- Profit and Loss Table -->
+            <table id="table1" class="table table-striped table-bordered table-hover table-border w-100 table-md" border="1">
+                <thead>
+                    <tr>
+                        <th>Product</th>
+                        <th>Quantity</th>
+                        <th>Total Price</th>
+                        <th>Profit</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for sale in sales %}
+                        <tr>
+                            <td>{{ sale.product.name }}</td>
+                            <td>{{ sale.quantity }}</td>
+                            <td>${{ sale.total_price |floatformat:0|intcomma }}</td>
+                            <td>${{ sale.profit |floatformat:0|intcomma }}</td>
+                        </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+            <h5>Total Profit: ${{ total_profit |floatformat:0|intcomma }}</h5>
+
+            <!-- Metric Descriptions -->
+            <h5>Metric Descriptions:</h5>
+            <ul>
+                <li><strong>Mean Absolute Error (MAE):</strong> This metric measures the average magnitude of errors in predictions, giving an idea of how much the predicted profits differ from actual profits.</li>
+                <li><strong>Mean Squared Error (MSE):</strong> This metric is similar to MAE but squares the errors before averaging them. It gives more weight to larger errors, making it useful to penalize bigger mistakes in predictions.</li>
+                <li><strong>R-squared (R²):</strong> Indicates how well the features (e.g., purchase price, selling price, quantity) explain the variability in profits. A value closer to 1 means the model explains the data well.</li>
+                <li><strong>Adjusted R-squared (Adj. R²):</strong> A modified version of R² that adjusts for the number of features in the model. It helps avoid overfitting by penalizing models that use too many unnecessary features.</li>
+            </ul>
+        </div>
+    </div>
+
+    {% block js %}
+    <script>
+        $(document).ready(function() {
+            $('#table1').DataTable({
+                dom: 'Bfrtip',
+                buttons: [
+                    {
+                        extend: 'copy',
+                        text: '<i class="fa fa-copy text-primary"></i> Copy',
+                    },
+                    {
+                        extend: 'excel',
+                        text: '<i class="fa fa-file-excel text-primary"></i> Excel'
+                    },
+                    {
+                        extend: 'pdf',
+                        text: '<i class="fa fa-file-pdf text-primary"></i> PDF'
+                    },
+                    {
+                        extend: 'print',
+                        text: '<i class="fa fa-print text-primary"></i> Print'
+                    },
+                    {
+                        extend: 'colvis',
+                        text: '<i class="fa fa-columns text-warning"></i> Columns'
+                    }
+                ],
+                "paging": true,
+                "searching": true,
+                "ordering": true,
+                "info": true,
+                "lengthChange": false,
+                "autoWidth": true,
+                "responsive": true
+            });
+        });
+    </script>
+    {% endblock %}
+{% endblock %}
