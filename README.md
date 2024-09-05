@@ -331,4 +331,21 @@ In this tutorial, you learned how to deploy a Django application on an Ubuntu se
 
 This setup allows you to deploy and serve your Django application using Apache on your Ubuntu server. For a more secure deployment, consider setting up HTTPS with SSL certificates, which will be covered in a future tutorial.
 
-Feel free to ask any questions or share your experiences in the comments!
+**My Contacts**
+
+**WhatsApp**  
++255675839840  
++255656848274
+
+**YouTube**  
+[Visit my YouTube Channel](https://www.youtube.com/channel/UCjepDdFYKzVHFiOhsiVVffQ)
+
+**Telegram**  
++255656848274  
++255738144353
+
+**PlayStore**  
+[Visit my PlayStore Developer Page](https://play.google.com/store/apps/dev?id=7334720987169992827&hl=en_US&pli=1)
+
+**GitHub**  
+[Visit my GitHub](https://github.com/shamiraty/)
