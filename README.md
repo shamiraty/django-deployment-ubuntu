@@ -319,6 +319,11 @@ Modify your virtual host configuration to use port 8000.
 
 - **Run your site**: Open a web browser and navigate to `http://10.0.2.15:8000` to access your Django app on port 8000.
 
+- Log in as user1 and send an email to user2.
+- Log in as user2 and send an email to user3.
+- Log in as user3 and send an email to user4.
+- Log in as user4 and send an email to user1.
+
 ## Conclusion
 
 In this tutorial, you learned how to deploy a Django application on an Ubuntu server using Apache. We covered the following:
