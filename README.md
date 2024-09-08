@@ -182,7 +182,11 @@ Configure your Django settings to ensure compatibility with Apache.
 
 ### 3. Create Apache Virtual Host Configuration
 
-Configure Apache to serve your Django app.
+- Configure Apache to serve your Django app.
+```sh
+sudo apt update
+sudo apt install apache2 libapache2-mod-wsgi-py3 python3-pip
+```
 
 - **Create a new Apache configuration file**:
 
