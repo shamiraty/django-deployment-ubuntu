@@ -1,4 +1,4 @@
-# SYSTEM ADMINISTRATION AND DEVELOPMENT
+# INFORMATION SYSTEMS ADMINISTRATION AND DEVELOPMENT
 ## OPEN SOURCE TECHNOLOGIES IN WEB DEVELOPMENT
 ### DEPLOYING DJANGO APP ON A LINUX/UBUNTU SERVER WITH APACHE
 ### MOVING YOUR APP FROM DEVELOPMENT TO PRODUCTION
@@ -27,7 +27,7 @@ To get started, you'll need to transfer your Django project folder from a Window
 
 - **Copy the Django project folder**: Run the following command to copy the Django folder and all its contents to the desired location on your Ubuntu server.
 
-    ```sh
+    ```python
     sudo cp -r SUPERMARKET /home/management/
     ```
 
@@ -40,13 +40,13 @@ Once you've copied the project, navigate to the project directory on your Ubuntu
 
 - **Navigate to your Django app directory**:
 
-    ```sh
+    ```python
     cd /home/management/SUPERMARKET/project/
     ```
 
 - **List files to ensure they are present**:
 
-    ```sh
+    ```python
     ls -l
     ```
 
@@ -58,31 +58,31 @@ A virtual environment is essential for managing dependencies and isolating your 
 
 - **Update packages**:
 
-    ```sh
+    ```python
     sudo apt update
     ```
 
 - **Install Python 3 and `venv`**:
 
-    ```sh
+    ```python
     sudo apt install python3-venv
     ```
 
 - **Create a virtual environment**:
 
-    ```sh
+    ```python
     sudo python3 -m venv venv
     ```
 
 - **Activate the virtual environment**:
 
-    ```sh
+    ```python
     source venv/bin/activate
     ```
 
 - **Enable write permissions to install libraries in `venv`**:
 
-    ```sh
+    ```python
     sudo chmod -R 777 venv
     ```
 
@@ -92,7 +92,7 @@ Ensure that all necessary Python libraries are installed within your virtual env
 
 - **Install Django and other libraries**:
 
-    ```sh
+    ```python
     pip install django
     pip install pandas
     pip install plotly
@@ -108,7 +108,7 @@ Before configuring Apache, ensure your Django app runs correctly.
 
 - **Run your Django application**:
 
-    ```sh
+    ```python
     python manage.py runserver
     ```
 
@@ -122,19 +122,19 @@ You'll need to know your server's IP address for configuring Apache.
 
 - **Install `net-tools`**:
 
-    ```sh
+    ```python
     sudo apt install net-tools
     ```
 
 - **Check your IP address**:
 
-    ```sh
+    ```python
     ifconfig
     ```
 
     **OR**
 
-    ```sh
+    ```python
     ip addr show
     ```
 
@@ -146,13 +146,13 @@ Configure your Django settings to ensure compatibility with Apache.
 
 - **Install `gedit` for editing files**:
 
-    ```sh
+    ```python
     sudo apt install gedit
     ```
 
 - **Open and edit Django settings**:
 
-    ```sh
+    ```python
     sudo gedit /home/management/SUPERMARKET/project/settings.py
     ```
 
@@ -176,21 +176,21 @@ Configure your Django settings to ensure compatibility with Apache.
 
 - **Make write permissions on 'static' directory**:
 
-    ```sh
+    ```python
     sudo chmod -R 777 static/
     ```
 
 ### 3. Create Apache Virtual Host Configuration
 
 - Configure Apache to serve your Django app.
-```sh
+```python
 sudo apt update
 sudo apt install apache2 libapache2-mod-wsgi-py3 python3-pip
 ```
 
 - **Create a new Apache configuration file**:
 
-    ```sh
+    ```python
     sudo nano /etc/apache2/sites-available/django_project.conf
     ```
 
@@ -237,14 +237,14 @@ Activate the new Apache site configuration and mod_wsgi module.
 
 - **Enable the new site and mod_wsgi module**:
 
-    ```sh
+    ```python
     sudo a2ensite django_project.conf
     sudo a2enmod wsgi
     ```
 
 - **Restart Apache**:
 
-    ```sh
+    ```python
     sudo systemctl restart apache2
     ```
 
@@ -254,7 +254,7 @@ Ensure Apache has the necessary permissions to read and execute files.
 
 - **Ensure Apache has read and execute permissions**:
 
-    ```sh
+    ```python
     sudo chown -R www-data:www-data /home/management/SUPERMARKET/project
     sudo chmod -R 755 /home/management/SUPERMARKET/project/
     sudo chown -R www-data:www-data /home/management/SUPERMARKET/project/static/
@@ -263,7 +263,7 @@ Ensure Apache has the necessary permissions to read and execute files.
 
 - **Enable the site configuration and reload Apache**:
 
-    ```sh
+    ```python
     sudo a2ensite django_project.conf
     sudo a2dissite 000-default.conf
     sudo systemctl reload apache2
@@ -271,7 +271,7 @@ Ensure Apache has the necessary permissions to read and execute files.
 
 - **Ensure Apache has read permission on parent directories**:
 
-    ```sh
+    ```python
     sudo chmod 755 /home
     sudo chmod 755 /home/management
     sudo systemctl restart apache2
@@ -289,7 +289,7 @@ Configure Apache to listen on port 8000.
 
 - **Open the ports configuration file**:
 
-    ```sh
+    ```python
     sudo gedit /etc/apache2/ports.conf
     ```
 
@@ -305,7 +305,7 @@ Modify your virtual host configuration to use port 8000.
 
 - **Open the virtual host configuration file**:
 
-    ```sh
+    ```python
     sudo gedit /etc/apache2/sites-available/django_project.conf
     ```
 
@@ -317,7 +317,7 @@ Modify your virtual host configuration to use port 8000.
 
 - **Restart Apache**:
 
-    ```sh
+    ```python
     sudo systemctl restart apache2
     ```
 
